@@ -1,0 +1,5 @@
+cat << 'EOF' > plik.txt
+printf "protocol=https
+\nhost=github.com\n" | git
+credential-manager erase
+EOF
